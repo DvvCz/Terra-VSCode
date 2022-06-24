@@ -3,9 +3,6 @@
 	"displayName": "Terra",
 	"description": "Syntax highlighting for the terra programming language",
 	"author": "DvvCz",
-	"contributors": [
-		"Microsoft Corporation"
-	],
 	"license": "MIT",
 	"version": "0.1.0",
 	"repository": {
