@@ -1,0 +1,48 @@
+{
+	"name": "terra-vscode",
+	"displayName": "Terra",
+	"description": "Syntax highlighting for the terra programming language",
+	"author": "DvvCz",
+	"contributors": [
+		"Microsoft Corporation"
+	],
+	"license": "MIT",
+	"version": "0.1.0",
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/DvvCz/Terra-VSCode"
+	},
+	"icon": "assets/icon.png",
+	"publisher": "DvvCz",
+	"categories": [],
+	"engines": {
+		"vscode": "^1.43.0"
+	},
+	"main": "./main.js",
+	"activationEvents": [
+		"onLanguage:terra"
+	],
+	"contributes": {
+		"languages": [
+			{
+				"id": "terra",
+				"aliases": [
+					"Terra",
+					"terra"
+				],
+				"extensions": [
+					".t",
+					".terra"
+				],
+				"configuration": "./cfg.json"
+			}
+		],
+		"grammars": [
+			{
+				"language": "terra",
+				"scopeName": "source.terra",
+				"path": "./syntaxes/terra.tmLanguage.json"
+			}
+		]
+	}
+}
